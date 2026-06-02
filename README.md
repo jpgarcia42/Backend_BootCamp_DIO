@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ E-Commerce Checkout API - GoF Design Patterns
 
 Este repositório contém um projeto de alto nível simulando um **Motor de Checkout de E-Commerce**, projetado para consolidar e demonstrar a aplicação prática de padrões de projeto clássicos do **GoF (Gang of Four)** em Java. 
@@ -123,3 +124,6 @@ Ao executar o programa, a classe `Main` simulará **4 cenários distintos** demo
 2. **Cenário 2**: Compra bem-sucedida via Cartão de Crédito com cupom `DESCONTO20`, validando a passagem pela cadeia e alteração correta da estratégia de pagamento.
 3. **Cenário 3**: Falha no checkout devido a um item simulado sem estoque, provando que a **Chain of Responsibility** interrompeu o fluxo antes do pagamento.
 4. **Cenário 4**: Falha no processamento do pagamento via Cartão devido a um valor acima do limite transacional, provando o funcionamento da estratégia em validar e recusar pagamentos.
+=======
+# Backend_BootCamp_DIO
+>>>>>>> 1d00ddba2586a75e7fe44e0bb4f5cfe69b790e25
