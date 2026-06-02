@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# 🛍️ E-Commerce Checkout API - GoF Design Patterns
+
+# E-Commerce Checkout API - GoF Design Patterns
 
 Este repositório contém um projeto de alto nível simulando um **Motor de Checkout de E-Commerce**, projetado para consolidar e demonstrar a aplicação prática de padrões de projeto clássicos do **GoF (Gang of Four)** em Java. 
 
@@ -7,7 +7,7 @@ O projeto foi construído seguindo rigorosamente os princípios do **SOLID** e p
 
 ---
 
-## 🏗️ Padrões de Projeto Implementados
+## Padrões de Projeto Implementados
 
 O fluxo de checkout é composto por três fases sequenciais, cada uma regida por um padrão GoF específico:
 
@@ -33,7 +33,7 @@ flowchart TD
 
 ---
 
-### 1. ⛓️ Chain of Responsibility (Cadeia de Responsabilidade)
+### 1. Chain of Responsibility (Cadeia de Responsabilidade)
 * **Pacote**: `com.ecommerce.checkout.chain`
 * **Objetivo**: Processar validações e aplicar descontos acumulativos ordenados sobre o carrinho antes do pagamento.
 * **Elos na Cadeia**:
@@ -46,7 +46,7 @@ flowchart TD
 
 ---
 
-### 2. 🎯 Strategy (Estratégia)
+### 2. Strategy (Estratégia)
 * **Pacote**: `com.ecommerce.checkout.strategy`
 * **Objetivo**: Encapsular os algoritmos de transação financeira tornando-os intercambiáveis em tempo de execução.
 * **Estratégias Concretas**:
@@ -59,7 +59,7 @@ flowchart TD
 
 ---
 
-### 3. 🔔 Observer (Observador)
+### 3.  Observer (Observador)
 * **Pacote**: `com.ecommerce.checkout.observer`
 * **Objetivo**: Disparar fluxos e serviços pós-venda totalmente independentes e desacoplados assim que o pagamento do pedido é confirmado.
 * **Observadores (Listeners)**:
@@ -72,7 +72,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Tecnologias e Padrões de Código
+## Tecnologias e Padrões de Código
 
 - **Linguagem**: Java 17+
 - **Gerenciador de Dependências**: Maven 3.x
@@ -84,7 +84,7 @@ flowchart TD
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 Você pode abrir o projeto diretamente em sua IDE de preferência (IntelliJ IDEA, Eclipse ou VS Code) importando-o como um projeto Maven, ou executando através do terminal.
 
@@ -116,7 +116,7 @@ mvn exec:java -Dexec.mainClass="com.ecommerce.checkout.Main"
 
 ---
 
-## 📊 Saída Esperada no Console
+## Saída Esperada no Console
 
 Ao executar o programa, a classe `Main` simulará **4 cenários distintos** demonstrando o comportamento dinâmico do sistema:
 
@@ -126,4 +126,3 @@ Ao executar o programa, a classe `Main` simulará **4 cenários distintos** demo
 4. **Cenário 4**: Falha no processamento do pagamento via Cartão devido a um valor acima do limite transacional, provando o funcionamento da estratégia em validar e recusar pagamentos.
 =======
 # Backend_BootCamp_DIO
->>>>>>> 1d00ddba2586a75e7fe44e0bb4f5cfe69b790e25
